@@ -25,6 +25,5 @@ end
 
 def full?(board)
   if position_taken?(board) == true
-    puts "true"
   end
 end
