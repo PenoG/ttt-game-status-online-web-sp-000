@@ -16,5 +16,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board,index)
-  
+  WIN_COMBINATIONS.detect do |combo|
+    board
 end
