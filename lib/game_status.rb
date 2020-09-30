@@ -24,6 +24,6 @@ def won?(board)
 end
 
 def full?(board)
-  if position_taken?(board, index) == true
+  board.all do token
   end
 end
