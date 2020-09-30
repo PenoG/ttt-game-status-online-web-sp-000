@@ -22,3 +22,9 @@ def won?(board)
     position_taken?(board, combo[0])
   end
 end
+
+def full?(board)
+  if position_taken?(board, index) == true
+    true
+  end
+end
