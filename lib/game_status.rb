@@ -24,6 +24,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.all do token
-  end
+  board.all? {|token| token == "X" || token == "O"}
 end
