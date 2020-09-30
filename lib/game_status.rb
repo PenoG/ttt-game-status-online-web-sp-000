@@ -27,10 +27,10 @@ def full?(board)
   board.all? {|token| token == "X" || token == "O"}
 end
 
-def draw
-  if won? == true
+def draw?(board)
+  if won?(board) == true
     false
-  elsif full? == false
+  elsif full?(board) == false
     false
   else
     true
